@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: url('/show-off-aurora-1143296_1920.jpg') no-repeat;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 25vw 0 0;
+    font-size: 12px;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content .bigheader {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .bigheader p {
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 430px;
+
+}
+
+.content .bigheader h1 {
+    font-size: 50px;
+    margin: 0 0 60px 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+.content .loadingcube {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 2px 2px rgb(61, 61, 61);
+}
+
+.content .loadingcube .loading70 {
+  flex: 1 1 70%;
+  min-width: 70px;
+  background-color: rgb(98, 98, 211);
+  height: 10px;
+  text-indent: -999px;
+}
+
+.content .loadingcube .loading30 {
+    flex: 1 1 30%;
+    min-width: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    text-indent: -999px;
+  }
+  
+  .content .number0 {
+   position: absolute;
+   left: 568px;
+   top: 470px;
+   font-size: 12px;
+  }
+
+  .content .number100 {
+    position: absolute;
+    left: 935px;
+    top: 470px;
+    font-size: 12px;
+   }
+
+   .content .notifyme {
+    position: absolute;
+    left: 700px;
+    top: 520px;
+    padding: 7px;
+    background-color: rgb(98, 98, 211);
+   }
+ 
+   .content .socialmedia  {
+    width: 75%;
+    border-radius: 8px;
+    position: absolute;
+    top: 600px;
+    left: 640px;
+    }
+
+    .content .socialmedia > * {
+        padding: 10px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        display: inline-block;
+        border: 2px solid white;
+        margin:5px;
+    }
+
+    
+    .container .underconstruction {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        border-top: 1px solid wheat;
+        font-size: 12px;
+        padding: 5px;
+        width: 50%;
+    }
+

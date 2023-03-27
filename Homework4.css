@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.job a {
+    
+display: flex;
+display: inline-block;
+font-size: 15px;
+text-decoration: none;
+color: black;
+}
+
+
+.content .navbar {
+    display: flex;
+}
+
+.content .navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.content .navbar {
+    padding: 30px;
+    margin-right: 100px;
+    list-style-type: none;
+}
+
+.content .navbar li {
+   margin: 0 30px 0 0;
+}
+
+.content .navbar2  {
+    display: flex;
+    padding: 30px;
+    margin: 0 10px 0 0;
+    list-style-type: none
+}
+
+.content .navbar2 a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.content .navbar2 i {
+    margin: 0 20px 0 0;
+
+}
+
+.cart {
+    margin: 0 0 0 20px;
+}
+ 
+  
+.item1 {
+    width: 33%;
+    height: 270px;
+    display: flex;
+    border: 3px solid rgb(223, 221, 221);
+    box-shadow: 3px 4px 3px 3px rgb(204, 200, 200);
+    margin: 30px 0 0 20px;
+
+}
+.item1 .doc1 {
+width: 45%;
+background-color: #add6c2;
+border-radius: 8px;
+height: 80%;
+margin: 20px 0 20px 50px
+
+}
+
+.item1 .doc1 i  {
+position: relative;
+top: 40px;
+font-size: 20px;
+margin: 0 0 0 10px;
+}
+
+.item1 .doc1 p {
+position: relative;
+top: 70px;
+font-size: 20px;
+margin: 0 0 0 5px;
+padding: 10px;
+}
+
+.item1 .outdoc1 {
+    padding:7px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid rgb(11, 6, 6);
+    margin: 5px;
+    position: absolute;
+    margin: 120px 0px 0px 7px;
+}
+
+.item1 .content1 .google {
+   position: absolute;
+   font-size: 20px;
+   margin: 40px 20px 0px  ;
+}
+
+.item1 .content1 .star {
+    display: inline-block;
+    margin: 90px 0 0 15px;
+
+}
+
+.item1 .content1 .price {
+    position: absolute;
+    margin: 75px 0 0 23px;
+}
+
+.item1 .content1 #level {
+    position: absolute;
+    padding: 6px;
+    border-radius: 8px;
+    width: 80px;
+    margin: 0 0 0 90px;
+    bottom: 480px;
+}
+
+
+.item2 {
+    width: 33%;
+    height: 270px;
+    display: flex;
+    border: 3px solid rgb(223, 221, 221);
+    box-shadow: 3px 4px 3px 3px rgb(204, 200, 200);
+    margin: 30px 0 0 20px;
+
+}
+.item2 .doc2 {
+width: 45%;
+background-color: #add6c2;
+border-radius: 8px;
+height: 80%;
+margin: 20px 0 20px 50px
+
+}
+
+.item2 .doc2 i  {
+position: relative;
+top: 40px;
+font-size: 20px;
+margin: 0 0 0 10px;
+}
+
+.item2 .doc2 p {
+position: relative;
+top: 70px;
+font-size: 20px;
+margin: 0 0 0 5px;
+padding: 10px;
+}
+
+.item2 .outdoc2 {
+    padding:7px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid rgb(11, 6, 6);
+    margin: 5px;
+    position: absolute;
+    margin: 120px 0px 0px 7px;
+}
+
+
+.item2 .content2 .google1 {
+   position: absolute;
+   font-size: 20px;
+   margin: 40px 20px 0px  ;
+}
+
+.item2 .content2 .star2 {
+    display: inline-block;
+    margin: 90px 0 0 15px;
+
+}
+
+.item2 .content2 .price1 {
+    position: absolute;
+    margin: 75px 0 0 23px;
+}
+
+.item2 .content2 #level1 {
+    position: absolute;
+    padding: 6px;
+    border-radius: 8px;
+    width: 80px;
+    margin: 0 0 0 90px;
+    bottom: 180px;
+}
+
+   .orderinfo {
+    position: relative;
+    left: 600px;
+    bottom: 565px;
+    width: 40%;
+    height: 370px;
+    border: 3px solid rgb(223, 221, 221);
+    box-shadow: 3px 4px 3px 3px rgb(204, 200, 200);
+}
+
+.orderinfo > .subtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 83px 0 30px;
+}
+
+
+.orderinfo > .orderform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    gap: 30px;
+    margin: 20px 0 0 10px;
+}
+
+.orderinfo > .orderform input[type=text] {
+    padding: 10px;
+    width: 40%;
+    border-radius: 6px;
+    border: 1px solid rgb(223, 223, 223);
+
+}
+
+.orderinfo > .orderform a {
+    padding: 10px;
+    width: 20%;
+    border-radius: 6px;
+    border: 1px solid rgb(52, 184, 98);
+    background-color: white;
+    color:  rgb(52, 184, 98);
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+.orderinfo .checkout > .uppercheckout {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 35px 0 30px;
+}
+
+.orderinfo .checkout > input[type=submit] {
+    padding: 10px;
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid rgb(223, 223, 223);
+    margin: 30px 0 0 50px;
+    background-color: rgb(41, 233, 172);
+
+}
